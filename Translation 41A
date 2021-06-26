@@ -1,0 +1,21 @@
+import java.util.*;
+public class Demo {
+	//TRANSALATION CODEFORCES
+  
+	public static void main(String[] args)  {
+		Scanner sc = new Scanner(System.in);
+    
+		String a = sc.nextLine();//code
+		String b = sc.nextLine();//edoc
+    
+		StringBuilder inputFromA = new StringBuilder();
+    
+		inputFromA.append(a);
+		inputFromA.reverse();
+    
+		a = String.valueOf(inputFromA);
+    
+		System.out.println(a.equals(b)?"YES":"NO");
+    
+	}
+}

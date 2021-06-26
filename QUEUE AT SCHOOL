@@ -1,0 +1,24 @@
+import java.io.IOException;
+import java.util.*;
+
+public class Demo {
+	//QUEUE AT SCHOOL PROBLEM
+	public static void main(String[] args) throws IOException {
+
+		Scanner sc  = new Scanner(System.in);	
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		String s = sc.next();
+		
+		while(b>0) {
+			if(s.contains("BG")) {
+			 s = 	s.replace("BG", "GB");
+			}
+			b  = b-1;
+		}
+		System.out.println(s);
+		
+		
+	}
+}
